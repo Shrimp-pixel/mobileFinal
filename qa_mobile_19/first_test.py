@@ -1,8 +1,7 @@
-from _pytest.fixtures import FixtureRequest
 from appium.webdriver.common.appiumby import AppiumBy
 from selene import have
 from selene.support.shared import browser
-from allure import step, dynamic
+from allure import step
 
 
 def test_search_browserstack():
