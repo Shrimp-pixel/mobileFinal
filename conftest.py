@@ -3,6 +3,7 @@ import pytest
 from appium import webdriver
 from dotenv import load_dotenv
 from selene.support.shared import browser
+from assist.attach import add_video
 
 
 @pytest.fixture(scope='function', autouse=True)
@@ -27,4 +28,5 @@ def setup_browser():
     )
     browser.config.timeout = 4
     yield setup_browser
+    add_video(browser)
     browser.quit()
