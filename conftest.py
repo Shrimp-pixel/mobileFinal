@@ -3,7 +3,7 @@ import pytest
 from appium import webdriver
 from dotenv import load_dotenv
 from selene.support.shared import browser
-from assist.attach import add_video
+from assist.attach import *
 
 
 @pytest.fixture(scope='function', autouse=True)
@@ -13,7 +13,7 @@ def setup_browser():
         "platformName": "android",
         "platformVersion": "9.0",
         "deviceName": "Google Pixel 3",
-        "app": "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c",
+        "app": "bs://8d59ebf677534789e16e08a37a7e86d112279c88",
         'bstack:options': {
             "projectName": "First Python project",
             "buildName": "browserstack-build-DEMO",
@@ -29,4 +29,7 @@ def setup_browser():
     browser.config.timeout = 4
     yield setup_browser
     add_video(browser)
+    screenshot(browser)
+    screen_xml_dump(browser)
+    screen_html_dump(browser)
     browser.quit()
