@@ -1,6 +1,6 @@
 # Проект по тестированнию мобильного приложения Wikipedia [apps-android-wikipedia](https://github.com/wikimedia/apps-android-wikipedia)
 <p align="left">
-  <img width="50%" src="/media/img/wikipedia.png"/>
+  <img width="10%" src="/media/img/wikipedia.png"/>
 </p>
 
 ## Содержание:
