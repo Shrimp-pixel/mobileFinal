@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "qa-mobile-19"
+name = "tests"
 version = "0.1.0"
-description = ""
+description = "mobile end-to-end testing on browserstack with selene + appium + pytest"
 authors = ["Shrimp-pixel <aleksander.17047665@gmail.com>"]
 readme = "README.md"
-packages = [{include = "qa_mobile_19"}]
+packages = [{include = "tests"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
