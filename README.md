@@ -1,6 +1,6 @@
 # Проект по тестированнию мобильного приложения Wikipedia [apps-android-wikipedia](https://github.com/wikimedia/apps-android-wikipedia)
 <p align="left">
-  <img width="50%" src="img/wikipedia.png"/>
+  <img width="50%" src="/media/img/wikipedia.png"/>
 </p>
 
 ## Содержание:
@@ -38,32 +38,32 @@
 Cборка в [Jenkins](JenkinUI)
 
 <p align="left">
-  <img width="90%" src="screenshot/Jenkin.png"/>
+  <img width="90%" src="/media/screenshot/Jenkins.png"/>
 </p>
 
 ## Allure Отчет
 [Allure](AlluerUI)
 
 <p align="left">
-  <img width="90%" src="screenshot/Allure.png"/>
+  <img width="90%" src="/media/screenshot/Allure.png"/>
 </p>
 
 ## Отчет в Telegram
 <p align="left">
-  <img width="90%" src="screenshot/AllureTelegram.png"/>
+  <img width="90%" src="/media/screenshot/AllureTelegram.png"/>
 </p>
 
 ## Allure TestOps
 [Allure](AllureTestOpS)
 
 <p align="left">
-  <img width="90%" src="screenshot/AllureTestOps.png"/>
+  <img width="90%" src="/media/screenshot/AllureTestOps.png"/>
 </p>
 
 ## Jira
 [Allure](Jira)
 
 <p align="left">
-  <img width="90%" src="screenshot/Jira.png"/>
+  <img width="90%" src="/media/screenshot/Jira.png"/>
 </p>
 
